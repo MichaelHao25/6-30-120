@@ -1,0 +1,294 @@
+@import "reset.css";
+/*@import "function.css";*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";  
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+.w {
+  max-width: 1210px;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  font-size: 100%;
+}
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+.header .h100 {
+  height: 100px;
+}
+.header .brand {
+  height: 100%;
+  width: 560px;
+  background: url("") center center no-repeat;
+}
+.header .search-box {
+  padding: 30px 0;
+  height: 40px;
+  font-size: 0;
+}
+.header .search-box input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  vertical-align: middle;
+}
+.header .search-box .text {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  color: #3050a6;
+  padding: 9px 10px;
+  line-height: 20px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  background: none;
+}
+.header .search-box .submit {
+  height: 40px;
+  width: 40px;
+  background: #3050a6 url("http://via.placeholder.com/20x20") center center no-repeat;
+}
+.header .menu a {
+  width: 12.5%;
+  height: 45px;
+  background: #000;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.3s;
+  line-height: 45px;
+  text-align: center;
+}
+.header .menu a:hover,
+.header .menu a.active {
+  background: #1d378b;
+  color: #fff;
+}
+.banner a {
+  display: block;
+  height: 500px;
+  background: url("") center center no-repeat;
+}
+.nav {
+  border-bottom: 1px solid #ccc;
+}
+.nav .scroll {
+  padding-left: 30px;
+  background: url("http://via.placeholder.com/25x25") left center no-repeat;
+  line-height: 60px;
+  font-size: 14px;
+  color: #000;
+}
+.product-show h3 {
+  padding: 30px 0;
+  font-size: 32px;
+  color: #000;
+  text-align: center;
+}
+.product-show h3 small {
+  text-transform: uppercase;
+  display: block;
+  font-size: 15px;
+  color: #ccc;
+}
+.product-show .option {
+  background: #d6d4d5;
+}
+.product-show .option h4 {
+  width: 190px;
+  height: 80px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  background: #1c388d;
+}
+.product-show .option h4 small {
+  text-transform: uppercase;
+  display: block;
+  font-size: 15px;
+  color: #fff;
+}
+.product-show .option a {
+  margin: 25px 0 25px 20px;
+  height: 30px;
+  width: 120px;
+  background: #fff;
+  color: #000;
+  line-height: 30px;
+  border: 1px solid #666;
+  text-align: center;
+}
+.product-show .tel {
+  background: #a2a2a2;
+  height: 80px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+.product-show .tel span {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+}
+.product-show .tel span+span {
+  font-size: 22px;
+  color: #7775a8;
+}
+.product-show .list {
+  padding-bottom: 70px;
+}
+.product-show .list .item {
+  width: 33.33%;
+  padding-top: 30px;
+  color: #666;
+}
+.product-show .list .item .content {
+  width: 355px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+}
+.product-show .list .item .title {
+  font-size: 30px;
+  padding: 10px 0;
+}
+.product-show .list .item .sub-title {
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.product-show .list .item a {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+}
+.w66 {
+  width: 70%;
+}
+.w33 {
+  width: 30%;
+}
+.news {
+  padding-bottom: 50px;
+}
+.news h3 {
+  font-size: 22px;
+  color: #ccc;
+  line-height: 2;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+.news .text {
+  padding-left: 30px;
+  width: 400px;
+  color: #666;
+}
+.news .text h4 {
+  font-size: 20px;
+  line-height: 2;
+}
+.news .text .date {
+  font-size: 12px;
+  line-height: 1;
+}
+.news .text p {
+  padding-top: 10px;
+  font-size: 20px;
+  line-height: 1.5;
+  height: 60px;
+  overflow: hidden;
+}
+.news .text .list {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  font-size: 16px;
+  color: #666;
+  line-height: 30px;
+  width: 100%;
+}
+.news .text .list a {
+  padding-left: 20px;
+  background: url("http://via.placeholder.com/10x10") left center no-repeat;
+  width: 100%;
+  box-sizing: border-box;
+}
+.news.right h3 span {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+.news.right .content {
+  width: 300px;
+  margin: 0 auto;
+}
+.news.right p {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+  height: 60px;
+  overflow: hidden;
+}
+.footer {
+  background: #333;
+}
+.footer .bdb202020 {
+  border-bottom: 1px solid #202020;
+}
+.footer .p30-0 {
+  padding: 30px 0;
+}
+.footer .h50 {
+  height: 50px;
+}
+.footer .brand-container a {
+  width: 170px;
+}
+.footer .brand-container span {
+  margin-left: 20px;
+  padding-left: 20px;
+  line-height: 50px;
+  color: #fff;
+  border-left: 1px solid #fff;
+}
+.footer .menu {
+  width: 100%;
+  border-bottom: 1px solid #414141;
+}
+.footer .menu .fl {
+  width: 12.5%;
+  text-align: center;
+  color: #fff;
+  line-height: 60px;
+}
+.footer .copy-right {
+  padding: 20px 0;
+  font-size: 20px;
+  color: #fff;
+  line-height: 36px;
+}
+.footer h3 {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  line-height: 1;
+}
+
+/*# sourceMappingURL=public.css.map */
